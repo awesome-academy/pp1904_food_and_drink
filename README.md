@@ -3,5 +3,5 @@
 PP1904: Food and Drink
 
 Team member:
-1. Lương Văn Quyền
-2. Nguyễn Minh Thịnh
+1. Đỗ Như Đan
+2. Trịnh Quốc Vương
