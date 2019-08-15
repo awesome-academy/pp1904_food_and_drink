@@ -17,7 +17,6 @@
         }
     });
     </script>
-
 <!--begin::Page Vendors --> 
     <link href="{{ asset('assets/vendors/custom/fullcalendar/fullcalendar.bundle.css') }}" rel="stylesheet" type="text/css" />
 <!--end::Page Vendors -->

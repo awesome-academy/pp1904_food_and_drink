@@ -6,6 +6,8 @@
 /public/wp-content
 /storage/*.key
 /vendor
+/public/assets
+/public/mix-manifest.json
 .env
 .phpunit.result.cache
 Homestead.json

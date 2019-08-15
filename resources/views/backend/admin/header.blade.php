@@ -56,7 +56,7 @@
                     <div class="m-stack__item m-stack__item--middle m-stack__item--center">
                         <!-- BEGIN: Brand -->
                         <a href="index.html" class="m-brand m-brand--desktop">
-                            <img alt="" src="assets/demo/demo9/media/img/logo/logo.png"/>
+                            <img alt="" src="{{ asset('assets/demo/demo9/media/img/logo/logo.png') }}"/>
                         </a>
                         <!-- END: Brand -->         </div>
                         <div class="m-stack__item m-stack__item--right">
@@ -269,7 +269,7 @@
                                         <a href="#" class="m-nav__link m-dropdown__toggle">
                                             <span class="m-topbar__username m--hidden-mobile">Mark</span>
                                             <span class="m-topbar__userpic">
-                                                <img src="assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless m--img-centered" alt=""/>
+                                                <img src="{{ asset('assets/app/media/img/users/user4.jpg') }}" class="m--img-rounded m--marginless m--img-centered" alt=""/>
                                             </span>
                                             <span class="m-nav__link-icon m-topbar__usericon  m--hide">
                                                 <span class="m-nav__link-icon-wrapper"><i class="flaticon-user-ok"></i></span>
@@ -281,7 +281,7 @@
                                                 <div class="m-dropdown__header m--align-center">
                                                     <div class="m-card-user m-card-user--skin-light">
                                                         <div class="m-card-user__pic">
-                                                            <img src="assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless" alt=""/>
+                                                            <img src="{{ asset('assets/app/media/img/users/user4.jpg') }}" class="m--img-rounded m--marginless" alt=""/>
                                                         </div>
                                                         <div class="m-card-user__details">
                                                             <span class="m-card-user__name m--font-weight-500">Mark Andre</span>
