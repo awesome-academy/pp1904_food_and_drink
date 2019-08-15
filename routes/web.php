@@ -19,3 +19,7 @@ Route::get('/cart', function () {
 Route::get('/admin', function () {
     return view('backend.admin.index');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
