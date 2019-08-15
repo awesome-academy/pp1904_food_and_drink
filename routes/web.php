@@ -15,3 +15,7 @@ Route::get('/', 'PagesController@home');
 Route::get('/cart', function () {
     return view('cart');
 });
+
+Route::get('/admin', function () {
+    return view('backend.admin.index');
+});
